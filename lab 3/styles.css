@@ -25,12 +25,13 @@ main>p {
 
 header>p {
     color:rgb(255, 0, 0);
+    background-color: blue;
     font-size:3rem;
     font-weight:bold;
     font-weight: 600;
     text-align:center;
     margin:2rem;
-    padding:3rem;
+    padding:1rem;
 }
 
  a{
@@ -42,6 +43,23 @@ header>p {
  nav {text-align:center;}
 
  body{background-color:rgb(179, 238, 84);}
- 
 
-
+ body {
+ font-size:3rem;
+ color: blue;
+ }
+ body>p {
+ font-family: "Protest Riot", sans-serif;
+ font-style: normal;
+ font-size: 3rem;
+ }
+ ol{
+     color: black;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size:2rem;
+ }
+ul{
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:2rem;
+}
