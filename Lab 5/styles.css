@@ -73,6 +73,8 @@ article>.image-only{
 article>footer{
     font-style: italic;
     font-weight: 900;
+    /* color: #275218;
+    font-size: 1.25rem; */
 }
 article>footer span{
     color: #275218;
@@ -84,6 +86,7 @@ body>footer{
     color: #fff;
     padding: 1rem;
     text-align: center;
+   
  
 
 }
@@ -91,5 +94,6 @@ body>footer{
 body>footer>a{
     color: #fff;
     margin: 1rem;
+   
     
 }
