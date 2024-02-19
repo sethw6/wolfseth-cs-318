@@ -5,6 +5,30 @@ body{
     background-size: cover;
 }
 
+
+
+main>nav>a:hover{
+    background-color: #eca2d4;
+    color: rgb(226, 17, 17);
+    border: 1px solid rgb(141, 11, 11);
+}
+
+
+main>nav>a{
+    background-color: #0e0aee;
+   
+    text-decoration: none;
+    padding: 1rem;
+    display:inline-block;
+    border: 1px solid transparent;
+}
+   
+header h1 {
+    display: inline-block;
+    margin: .5rem;
+ 
+}
+
 /* unvisited link */
 a:link {
     color: red;
@@ -12,7 +36,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: green;
+    color: rgb(252, 248, 53);
   }
   
   /* mouse over link */
@@ -23,4 +47,9 @@ a:link {
   /* selected link */
   a:active {
     color: blue;
+  }
+
+  main{
+      font-weight: bold;
+      
   }
