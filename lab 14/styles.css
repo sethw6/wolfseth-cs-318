@@ -40,7 +40,7 @@ nav>a:hover{
 .sidenav>a{
     background-color: #fae2c0;
     color: 0f0f0f;
-    padding: .5rem .5rem 0 0;
+    padding: .5rem 1rem;
     display: inline-block;
     margin: .5rem .5rem 0 0;
     text-decoration: none;
@@ -62,7 +62,7 @@ section{
 
 .title{
     margin: 0;
-    padding: 2rerm 1rem;
+    padding: 2rem 1rem;
     background-color: #5f1818;
 }
 h4{
@@ -114,12 +114,31 @@ section:nth-child(2){
     body{
         display: grid;
         grid-template-columns: 20rem auto;
-        grid-template-rows: auto;
+        grid-template-rows: auto 1fr auto;
         gap: 1rem;
     }
 
+    header{
+        grid-column: 1 / -1;
+        grid-row: 1;
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .sidenav {
+        grid-column: 1;
+        grid-row: 2 / span 2; 
+    }
 
+    main {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .sidenav>a{
+        display: block;
+        text-align: right;
+    }
       
 
 
