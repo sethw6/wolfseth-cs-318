@@ -6,7 +6,7 @@ body{
 }
 
 h1, h2 {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cinzel Decorative', cursive; 
     color: #d9ba6c;
 }
 
@@ -39,7 +39,7 @@ nav>a:hover{
 
 .sidenav>a{
     background-color: #fae2c0;
-    color: 0f0f0f;
+    color: #0f0f0f;
     padding: .5rem 1rem;
     display: inline-block;
     margin: .5rem .5rem 0 0;
