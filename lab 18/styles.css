@@ -1,0 +1,186 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffbd59;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .header > div, .header nav {
+    flex: 1;
+  } 
+
+  .intro div {
+    background-color: #5271ff;
+    font-weight: normal;
+    border-radius: .9rem;
+  }
+ 
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+  }
+  nav a {
+    background-color: #5271ff;
+   font-weight: bold;
+   border-radius: 10rem;
+   font-family: 'Times New Roman', Times, serif;
+   
+
+ 
+  }
+
+  nav a:hover {
+    background-color: #142fb8; 
+  }
+
+  .header div{
+    display: flex;
+    align-items: center;
+  }
+  nav a  {
+    color: black;
+    display: inline-block;
+    padding: 14px 16px;
+    margin: 3rem;
+    cursor: pointer;
+  }
+  .intro, .animal-section {
+    margin: 15px;
+  }
+  .animal {
+    background-color:  #ffbd59;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 30%;
+  }
+  .animal h2 {
+    margin-top: 0;
+  }
+  ul {
+   
+    padding: 0;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+
+  .animal-image {
+    max-width:40%; 
+    height: auto; 
+    object-fit: cover; 
+    display: block; 
+    margin: 10px auto; 
+    border-radius: 1.5rem;
+  }
+
+  .sailfish, .cheetah, .falcon{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 1.5rem;
+  }
+  
+ 
+
+  .logo{
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 1rem;
+    margin-left: 15px;
+  }
+
+  body{
+    background-color:  #ffbd59;
+  }
+.animal-section, .intro {
+    display: flex;
+    gap: 1rem;
+}
+
+.intro{
+    align-items: center;
+    
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .header > div, .header nav {
+      flex: none;
+      width: 100%; 
+      justify-content: flex-start; 
+    }
+  
+    .logo {
+      margin-bottom: 10px; 
+      margin-left: 0;
+      max-width: 80px;
+    }
+  
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .navigation a {
+      padding: 10px; 
+      font-size: 0.9rem; 
+      margin: 5px 0; 
+      display: block; 
+    }
+  
+    .intro, .animal-section, .animal {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+  
+    .intro div, .intro img {
+      width: 100%; 
+    }
+  
+    .intro div p {
+      background-color: #5271ff; 
+      display: block;
+      padding: 10px; 
+      margin: 5px 0;
+      border-radius: 0; 
+    }
+  
+    .animal img {
+      width: 100%; 
+      height: auto;
+      object-fit: contain; 
+      margin: 0 auto 10px; 
+    
+    }
+  
+   
+    .animal ul {
+      padding: 0; 
+      
+    }
+  
+    .animal li {
+      font-size: 0.9rem; 
+    }
+  }
+  
